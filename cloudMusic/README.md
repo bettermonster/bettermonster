@@ -2,7 +2,15 @@
 
 > A Vue.js project
 
-## Build Setup
+所用技术vue  vue-router vuex
+
+## 运行方法
+
+首先下载上一层级的node项目并运行打开启动后台接口服务，之后再运行cloudMusic
+注意： node是一位大神的开源项目如要了解详情请转到
+https://github.com/Binaryify/NeteaseCloudMusicApi
+下载最新的文档
+
 
 ``` bash
 # install dependencies
@@ -11,20 +19,4 @@ npm install
 # serve with hot reload at localhost:8080
 npm run dev
 
-# build for production with minification
-npm run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
