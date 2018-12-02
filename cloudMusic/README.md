@@ -11,6 +11,8 @@
 https://github.com/Binaryify/NeteaseCloudMusicApi
 下载最新的文档
 
+有可能会造成接口不可用的问题
+
 
 ``` bash
 # install dependencies
