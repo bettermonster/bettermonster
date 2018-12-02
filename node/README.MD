@@ -1,6 +1,8 @@
 此项目是大神的分享项目
 如想了解详情请转到https://github.com/Binaryify/NeteaseCloudMusicApi
 
+可能有最新版API
+
 # 网易云音乐 API
 
 网易云音乐 Node.js API service
