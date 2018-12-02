@@ -1,10 +1,106 @@
+
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="UTF-8">
-		<title>个人博客</title>
+		<meta charset="utf-8f">
+		<title>爱你哦</title>
+		<style type="text/css">
+			html, body {
+			height: 100%;
+			}
+
+	body {
+		margin: 0;
+		padding: 0;
+		/*
+				定义body 渐变，向页面。
+
+		*/
+
+		background-image: linear-gradient(to bottom, #ffa5a5 0%,red 100%);
+	}
+			
+	.box {
+		width: 500px;
+		height: 500px;
+		margin: 0 auto;
+		position: relative;
+	}	
+	.side {
+		top: 100px;
+		width: 220px;
+		height: 220px;
+		border-radius: 110px;
+	}
+
+	.center {
+		width: 210px;
+		height: 210px;
+		bottom: 100px;
+		left: 145px;
+		transform: rotateZ(225deg);
+		/*transform: rotate(45deg);*/
+	}	
+	
+	.heart.top {
+		z-index: 3;
+	}
+	.heart {
+		position: absolute;
+		z-index: 2;
+		background: linear-gradient(-90deg, #F50A45 0%, #d5093c 50%);
+		animation: beat 0.7s ease infinite;
+	}
+	.left {
+		left: 62px;
+	}
+
+	.right {
+		right: 62px;
+	}
+	
+	
+.heart.center {
+		background: linear-gradient(-45deg, #B80734 0%, #d5093c 40%);
+	}
+	
+	
+			
+	@keyframes beat {
+		0% {
+			transform: scale(1) rotate(225deg);
+			box-shadow:0 0 40px #d5093c;
+		}
+
+		50% {
+			transform: scale(1.1) rotate(225deg);
+			box-shadow:0 0 70px #d5093c;
+		}
+		100% {
+			transform: scale(1) rotate(225deg);
+		box-shadow:0 0 40px #d5093c;
+		}
+	}
+			
+			
+		</style>
+		
+		
+		
+		
 	</head>
 	<body>
-		<h1>贾陆伟的个人主页</h1>
+		
+		<div class="box">		
+			<div class="heart side left top"></div>
+			
+			<div class="heart center"></div>
+			
+			<div class="heart side right"></div>
+		</div>
+		
+		
+		
+		
 	</body>
 </html>
