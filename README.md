@@ -2,9 +2,9 @@
 
 
 大概实现的展示 登录 注册 播放 详情 等功能
+
 首页
 ![image](https://github.com/bettermonster/cloudMUsic/blob/master/img/1.png)
-
 个人歌单
 ![image](https://github.com/bettermonster/cloudMUsic/blob/master/img/2.png)
 视频页
